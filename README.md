@@ -8,12 +8,12 @@
 4. `Post`时Request的Content-Type：`application/json;charset=UTF-8`
 5. 返回的JSON格式如下：
 
-+ 正确时，`code = 0`，`msg = 返回的数据结构` 例如：
++ 正确时，`code = 0`，`data = 返回的数据结构` 例如：
 
 ```json
 {
   "code": 0,
-  "msg": {
+  "data": {
     "orgName": "工商银行",
     "orgId": 1
   }
@@ -25,7 +25,7 @@
 ```json
 {
   "code": 0,
-  "msg": [
+  "data": [
     {
       "orgName": "工商银行"
     },
@@ -85,7 +85,7 @@
 
 ```json
 {
-  "msg": {
+  "data": {
     "orgName": "深圳XX科技有限公司",
     "phone": "13800020303",
     "userName": "李四",
@@ -104,7 +104,7 @@
 
 ```json
 {
-  "msg": "登出成功",
+  "data": "登出成功",
   "code": 0
 }
 ```
@@ -118,7 +118,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "orgId": 21438893910917166,
       "orgName": "深圳XX科技有限公司",
@@ -156,7 +156,7 @@
 
 ```json
 {
-  "msg": "企业保存成功",
+  "data": "企业保存成功",
   "code": 0
 }
 ```
@@ -172,7 +172,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "displayName": "人民币",
       "name": "CNY"
@@ -195,7 +195,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "displayName": "现金银行转账",
       "name": "CASH_BANK_TRANSFER"
@@ -226,7 +226,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "displayName": "未出货",
       "name": "NOT_SHIPPED"
@@ -257,7 +257,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "displayName": "身份证",
       "name": "ID_CARD"
@@ -288,7 +288,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "displayName": "商票质押",
       "name": "COM_DRAFT_PLEDGE"
@@ -319,7 +319,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "displayName": "新提交",
       "name": "0"
@@ -350,7 +350,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "displayName": "未确权",
       "name": "NOT_CONFIRMED"
@@ -381,7 +381,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "displayName": "已产生",
       "name": "CREATED"
@@ -436,7 +436,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "displayName": "法定代表人",
       "name": "LEGAL_PERSON"
@@ -459,7 +459,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "displayName": "出票已登记",
       "name": "SH_010004"
@@ -486,7 +486,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {
       "displayName":"增值税普通发票","name":"GENERAL_VAT_INVOICE"
     },
@@ -505,7 +505,7 @@
 
 ```json
 {
-  "msg": [
+  "data": [
     {"displayName":"新提交","name":"CREATED"},
     {"displayName":"完成初审","name":"PRELIMINARY_AUDITED"},
     {"displayName":"完成审核","name":"AUDITED"},
@@ -542,7 +542,7 @@
 
 ```json
 {
-  "msg": "应收账款保存成功",
+  "data": "应收账款保存成功",
   "code": 0
 }
 ```
@@ -586,7 +586,7 @@
 
 ```json
 {
-  "msg": "商票保存成功",
+  "data": "商票保存成功",
   "code": 0
 }
 ```
@@ -610,7 +610,7 @@
 
 ```json
 {
-  "msg": "资产发布成功",
+  "data": "资产发布成功",
   "code": 0
 }
 ```
@@ -646,7 +646,7 @@
 
 ```json
 {
-  "msg": "订单保存成功",
+  "data": "订单保存成功",
   "code": 0
 }
 ```
@@ -677,7 +677,7 @@
 
 ```json
 {
-  "msg": "发票保存成功",
+  "data": "发票保存成功",
   "code": 0
 }
 ```
@@ -710,7 +710,7 @@
 
 ```json
 {
-  "msg": "合同保存成功",
+  "data": "合同保存成功",
   "code": 0
 }
 ```
